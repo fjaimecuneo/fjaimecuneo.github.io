@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Articles — Francisco Jaime Cuneo</title>
+  <meta name="description" content="Notes on markets, geopolitics, and investment strategy." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;450;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER (mirrors index.html) -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="brand">
+          Francisco Jaime Cuneo
+          <span class="brand-mark">/ Research</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html" class="is-active">Articles</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==========================================================
+         PAGE HEADER
+         ========================================================== -->
+    <section class="hero" style="padding-bottom: var(--s-4);">
+      <div class="container">
+        <span class="eyebrow rise rise-1">Index</span>
+        <h1 class="rise rise-2" style="max-width: 18ch;">
+          Articles &amp; <em>research notes</em>.
+        </h1>
+        <p class="hero-lede rise rise-3" style="max-width: 50ch;">
+          A running archive of pieces on markets, geopolitics, energy, and valuation work.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         ARTICLES LIST
+         To add a new article:
+         1. Create a new HTML file inside /articles/ (copy one of
+            the existing ones as a template).
+         2. Add a new <li class="article-card"> block here at the
+            top of the list with the matching href, title, preview,
+            date, and category. Update the N° number.
+         ========================================================== -->
+    <section class="section" style="padding-top: var(--s-4);">
+      <div class="container">
+
+        <ul class="articles-list">
+
+          <li class="article-card">
+            <span class="num">N° 03</span>
+            <div class="body">
+              <div class="category">Geopolitics · Energy</div>
+              <h3><a href="articles/hormuz-premium.html">Hormuz Premium: Pricing the Tail Risk in Energy Markets</a></h3>
+              <p class="preview">
+                A 30-day Strait of Hormuz disruption is not a base case, but the option value of
+                the scenario is mispriced. Three vectors argue for a structural premium to current Brent.
+              </p>
+            </div>
+            <span class="date">22 Apr 2026</span>
+          </li>
+
+          <li class="article-card">
+            <span class="num">N° 02</span>
+            <div class="body">
+              <div class="category">Markets · Strategy</div>
+              <h3><a href="articles/quality-late-cycle.html">Defensive Rotation: Why Quality Outperforms Late-Cycle</a></h3>
+              <p class="preview">
+                Earnings dispersion is widening while real rates stall. High-quality compounders
+                extend their relative lead in the final third of the cycle.
+              </p>
+            </div>
+            <span class="date">11 Apr 2026</span>
+          </li>
+
+          <li class="article-card">
+            <span class="num">N° 01</span>
+            <div class="body">
+              <div class="category">Equities · Valuation</div>
+              <h3><a href="articles/sotp-latam-holding.html">SOTP Re-rating: The Conglomerate Discount in LatAm Holdings</a></h3>
+              <p class="preview">
+                A sum-of-the-parts walk through a regional industrial holding company. The
+                consolidated multiple obscures a 35% discount to NAV.
+              </p>
+            </div>
+            <span class="date">28 Mar 2026</span>
+          </li>
+
+          <!-- TEMPLATE: copy this block and edit when adding new articles
+          <li class="article-card">
+            <span class="num">N° 04</span>
+            <div class="body">
+              <div class="category">Category · Subcategory</div>
+              <h3><a href="articles/your-new-slug.html">Your headline goes here</a></h3>
+              <p class="preview">Short preview / dek of the article (1–2 sentences).</p>
+            </div>
+            <span class="date">DD MMM 2026</span>
+          </li>
+          -->
+
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <span>© <span data-year>2026</span> Francisco Jaime Cuneo</span>
+        <span>Buenos Aires · ARG</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
